@@ -1,14 +1,8 @@
 package br.com.gabriel;
 
 import br.com.gabriel.dao.DespesaDAO;
-import br.com.gabriel.model.Categoria;
-import br.com.gabriel.model.Despesa;
 
-import java.time.LocalDate;
-import java.util.List;
-import java.util.Optional;
-
-public class Application {
+public class ListarDespesas {
     public static void main(String[] args) {
 
         DespesaDAO dao = new DespesaDAO();
